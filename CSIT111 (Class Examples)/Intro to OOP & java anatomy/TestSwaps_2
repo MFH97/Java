@@ -1,0 +1,26 @@
+// How to swap two information?
+//
+// File name: TestSwaps_2.java
+
+class TestSwaps_2
+{
+	public static void main (String [ ] args)
+	{
+		int x = 123;
+		int y = 456;
+		
+		System.out.println ("Before the swaps");
+		System.out.println ("\tx = " + x);
+		System.out.println ("\ty = " + y);
+		
+		
+		// We need to bypass by a temporary location
+		int temp = x; //123
+		x = y; //456
+		y = temp; //123
+		
+		System.out.println ("\nAfter the swaps");
+		System.out.println ("\tx = " + x);
+		System.out.println ("\ty = " + y);
+	}
+}
