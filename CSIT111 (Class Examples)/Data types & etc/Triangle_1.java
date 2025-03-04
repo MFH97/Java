@@ -1,4 +1,5 @@
-// Read in the three sides of a triangle.
+// Get user to input values
+//Read in the three sides of a triangle.
 // Compute and display its area and its perimeter
 //
 // File name: Triangle_1.java
@@ -16,7 +17,7 @@ class Triangle_1
 		double perimeter;
 		
 		//construct a scanner class object input
-		Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);//input is the Scanner class object
 		
 		//read in the 3 sides of the triangle
 		System.out.print("Enter the 3 sides: ");
